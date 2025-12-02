@@ -1,0 +1,168 @@
+/* #main-window: Sombra de la ventana */
+#main-window {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+/* Barra de navegación (URL, botones) */
+#nav-bar {
+  background-color: #1e1e2e !important;
+  padding: 5px 10px !important;
+  display: flex !important;
+  gap: 10px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Barra de menú (Archivo, Editar, Ver...) */
+#toolbar-menubar {
+  background-color: #1e1e2e !important;
+}
+
+/* Botones de navegación (Atrás, Adelante, Firefox View) */
+#back-button,
+#forward-button,
+#firefox-view-button {
+  color: #89b4fa !important;
+}
+
+/* Botones genéricos de la barra de herramientas */
+.toolbarbutton-1 {
+  color: #cba6f7 !important;
+}
+
+/* Barra de URL (URL bar) */
+.urlbar {
+  background-color: #1e1e2e !important;
+}
+
+.urlbar-input-container {
+  background-color: #181825 !important;
+  padding: 8px !important;
+  border: 1px solid #f2cdcd !important;
+  color: #f5e0dc !important;
+  border-radius: 40px !important;
+}
+
+/* Contenedores principales de la ventana */
+#browser {
+  background-color: #1e1e2e !important; /* Corregido: Agregado '#' */
+}
+
+/* Pestañas */
+#tabbrowser-tabs {
+  padding: 6px 0;
+}
+
+.tabbrowser-tab {
+  background-color: #1e1e2e !important;
+  margin: 5px 0 !important;
+}
+
+.tab-background {
+  background-color: #181825 !important;
+  padding: 4px !important;
+}
+
+/* ⚠️ Corrección de anidamiento para la pestaña seleccionada/activa ⚠️ */
+.tab-content[selected],
+.tab-content[multiselected] {
+  background-color: #cba6f7 !important;
+}
+
+/* Sidebar (Barra lateral de historial/marcadores) */
+#sidebar {
+  background-color: #1e1e2e !important; /* Corregido: Agregado '#' */
+  height: 100% !important;
+}
+
+#sidebar-box {
+  background-color: #1e1e2e !important; /* Corregido: Agregado '#' */
+  border: 1px solid #f5e0dc !important;
+}
+
+#sidebar-main {
+  background-color: #1e1e2e !important;
+  padding: 5px !important; /* Mantenemos este padding para evitar conflicto */
+}
+
+.sidebar-panel {
+  background-color: #1e1e2e !important;
+  padding: 10px 30px !important;
+  border: 1px solid #1e1e2e !important;
+  color: #f5e0dc !important;
+  font-size: 18px !important;
+}
+
+/* Encabezado de la barra lateral (por ejemplo, "Historial" o "Marcadores") */
+#sidebar-panel-header {
+  color: #a6e3a1 !important;
+  font-size: 28px !important;
+  text-align: center !important;
+  padding: 8px !important;
+  margin: 10px auto !important;
+  font-style: italic !important;
+  font-family: fantasy !important;
+  border-bottom: 1px solid #cba6f7 !important;
+}
+
+/* Caja de búsqueda dentro de la barra lateral */
+#search-box {
+  padding: 20px !important;
+  margin: 5px auto !important;
+  color: #f5e0dc !important;
+  width: 90% !important;
+  background-color: #1e1e2e !important;
+}
+
+/* Input de búsqueda dentro de la barra lateral */
+#input {
+  padding: 3px !important;
+  width: 100% !important;
+  max-width: 350px !important;
+  color: #cdd6f4 !important;
+  background-color: #181825 !important;
+  border: 1px solid #f5e0dc !important;
+  font-size: 10px !important;
+}
+
+/* Estructura de árbol de lugares (Marcadores/Historial) */
+.sidebar-placesTree {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+  margin-left: 20px !important;
+  color: #f2cdcd !important;
+  border-radius: 5px !important;
+}
+
+.tree-rows {
+  color: #f2cdcd !important;
+  font-size: 15px !important;
+  font-family: sans-serif !important;
+  margin-top: 15px !important;
+}
+
+/* Separador de la barra lateral (lo hiciste invisible, lo mantengo) */
+#sidebar-splitter,
+.sidebar-splitter {
+  padding: 0 !important;
+  order: 1 !important;
+  width: 0 !important;
+  background-color: #1e1e2e !important; /* Usar background-color para consistencia */
+  --splitter-width: 0 !important; /* Propiedad específica para el splitter */
+}
+
+/* Título de la ventana del navegador */
+.browser-titlebar {
+  color: #a6e3a1 !important;
+}
+
+/* Botones de control de ventana (Minimizar, Maximizar, Cerrar) */
+.buttons-wrapper {
+  color: #f38ba8 !important;
+}
+
+/* Botón de nueva pestaña vertical (si usas un addon o config específica) */
+#vertical-tabs-newtab-button {
+  color: #f5c2e7 !important;
+}
