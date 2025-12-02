@@ -2,6 +2,14 @@
 
 Un tema personalizado para el navegador Mozilla Firefox, diseñado para entornos de desarrollo. Utiliza una paleta de colores oscura y de bajo contraste, inspirada en el esquema de colores de Catppuccin (Latte, Frappé, Macchiato, Mocha, etc.), enfocado en la armonía visual y la reducción de la fatiga visual.
 
+
+📸 Vistas Previas
+
+![Vista de la barra lateral de Firefox](img.png)
+
+![Vista de Firefox](img2.png)
+
+
 ✨ Paleta de Colores Principal
 
 Este tema se basa en una paleta de colores distintiva para sus elementos clave:
@@ -48,11 +56,6 @@ Texto General.
 
 Encabezados/Títulos.
 
-📸 Vistas Previas
-
-![Vista de la barra lateral de Firefox](img.png)
-
-![Vista de Firefox](img2.png)
 
 Vista General de la Ventana
 
